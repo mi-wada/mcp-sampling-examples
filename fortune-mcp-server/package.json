@@ -1,21 +1,22 @@
 {
-	"name": "fortune-mcp-server",
-	"type": "module",
-	"version": "1.0.0",
-	"main": "index.js",
-	"scripts": {
-		"start": "tsc && node build/index.js"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "MIT",
-	"description": "",
-	"dependencies": {
-		"@modelcontextprotocol/sdk": "^1.13.0",
-		"zod": "^3.25.67"
-	},
-	"devDependencies": {
-		"@types/node": "^24.0.3",
-		"typescript": "^5.8.3"
-	}
+  "name": "fortune-mcp-server",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.4",
+    "@types/node": "^24.0.3",
+    "typescript": "^5.8.3"
+  }
 }
